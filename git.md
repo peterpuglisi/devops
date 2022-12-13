@@ -42,6 +42,12 @@ git config --global user.email "you@example.com"
 `git log --graph`
 
 
+### Reset
+
+- Recovers what was added to the index/staging area
+`git reset`
+
+
 
 
 
