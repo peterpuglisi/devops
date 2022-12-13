@@ -47,11 +47,16 @@ git config --global user.email "you@example.com"
 - Recovers what was added to the index/staging area
 `git reset`
 
-## Revert checkout to cloned state from origin
+## Revert all local and added changes to cloned and committed state
 
 `git reset --hard`
 
-test 2
+### Fetch the remote branch and set your branch to it
+
+git fetch origin
+git reset --hard origin/master
+
+
 
 
 
