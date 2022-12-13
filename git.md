@@ -44,8 +44,9 @@ git config --global user.email "you@example.com"
 
 ### Reset
 
-- Recovers what was added to the index/staging area
+- Reverts what was added to the index/staging area:
 `git reset`
+`git restore --staged .`
 
 ## Revert all local and added changes to cloned and committed state
 
