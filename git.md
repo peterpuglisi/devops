@@ -16,9 +16,24 @@ git config --global user.email "you@example.com"
 
 `git log`
 
-### Git add
+### Git add all files
 
-`git add`
+`git add .`
+
+
+### Git commit with a message
+
+`git commit -m "updates"`
+
+### Git diff
+
+`git diff`
+
+### Combine git add and commmit
+
+`git commit -a -m "updates"`
+
+
 
 
 
