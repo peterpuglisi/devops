@@ -47,8 +47,11 @@ git config --global user.email "you@example.com"
 - Recovers what was added to the index/staging area
 `git reset`
 
+## Revert checkout to cloned state from origin
 
+`git reset --hard`
 
+test 2
 
 
 
