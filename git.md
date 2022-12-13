@@ -33,6 +33,13 @@ git config --global user.email "you@example.com"
 
 `git commit -a -m "updates"`
 
+## Last commit from log
+
+`git log --oneline`
+
+### With visual representation
+
+`git log --graph`
 
 
 
