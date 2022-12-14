@@ -85,6 +85,12 @@ git reset --hard origin/master
 
 ### Git reflog
 
+- Reference log of history of changes made to the head
+`git reflog`
+
+- Reset back to commit id, to undo last commit for example
+git reset --hard **commit id**
+
 
 
 
