@@ -91,6 +91,8 @@ git reset --hard origin/master
 - Reset back to commit id, to undo last commit for example
 git reset --hard **commit id**
 
+new line added to staging
+
 
 
 
