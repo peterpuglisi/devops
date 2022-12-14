@@ -57,7 +57,30 @@ git config --global user.email "you@example.com"
 git fetch origin
 git reset --hard origin/master
 
-new line 
+
+### Git stash pop
+
+- Stash current changes
+`git stash`
+
+- Restore stashed work
+`git stash pop` 
+
+- Get stash list
+`git stash list`
+
+- View what is in a stash for lastest stash change
+`git stash show --patch stash@{0}`
+
+- Extract/apply a particular stash
+`git stash apply stash@{1}`
+
+- View diffs
+`git diff`
+
+
+
+
 
 
 
