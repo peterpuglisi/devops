@@ -93,9 +93,12 @@ git reset --hard **commit id**
 
 new line added to staging
 
-### Cherry picking
+### Cherry picking a change made in another branch into current branch
+- Do a `git log --all --oneline` to find the commit id of the change you want.
+- Switch to master branch and cherry-pick that commit:
+`git cherry-pick <<commit-id>>`
 
-`git cherry-pick`
+
 
 
 
