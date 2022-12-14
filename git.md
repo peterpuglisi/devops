@@ -99,6 +99,8 @@ new line added to staging
 `git cherry-pick <<commit-id>>`
 
 
+### git rebase
+
 
 
 
