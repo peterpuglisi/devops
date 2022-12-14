@@ -45,8 +45,8 @@ git config --global user.email "you@example.com"
 ### Reset
 
 - Reverts what was added to the index/staging area:
-`git reset`
-`git restore --staged .`
+`git reset` - updates the index (staging/added)
+`get reset --hard` - updates both the index (staging/added) and the working tree
 
 ## Revert all local and added changes to cloned and committed state
 
@@ -92,6 +92,10 @@ git reset --hard origin/master
 git reset --hard **commit id**
 
 new line added to staging
+
+### Cherry picking
+
+`git cherry-pick`
 
 
 
