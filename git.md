@@ -57,6 +57,8 @@ git config --global user.email "you@example.com"
 git fetch origin
 git reset --hard origin/master
 
+new line 
+
 
 
 
