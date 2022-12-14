@@ -79,6 +79,14 @@ git reset --hard origin/master
 `git diff`
 
 
+### Git add 
+
+
+
+
+
+
+
 
 
 
