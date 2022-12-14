@@ -79,7 +79,14 @@ git reset --hard origin/master
 `git diff`
 
 
-### Git add 
+### Git add interactive
+
+`git add -i`
+
+### Git reflog
+
+
+
 
 
 
