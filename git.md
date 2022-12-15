@@ -98,8 +98,32 @@ new line added to staging
 - Switch to master branch and cherry-pick that commit:
 `git cherry-pick <<commit-id>>`
 
-
 ### git rebase
+
+- Switch to the branch where changed were made but main branch has moved on will other commits
+- Resolve conflicts and follow any hints
+ 
+`git switch <branch_name>`
+`git rebase main`
+`git rebase continue`  (if needed)
+
+`git log --all --decorate --graph` - to check new graph to verify rebase
+
+- Merge rebased branch into master
+-`git switch master`
+-`git merge <branch-name>`  (This will fast-forward main by default)
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
