@@ -115,6 +115,56 @@ new line added to staging
 
 
 
+### Reote Repositories
+
+- This just gives you remote back :)
+`git remote`
+
+- To view list of branches with more info
+`git branch -vv`
+
+- Push a new local branch up to origin
+- `git push --set-upstream origin <branch-name>`
+
+- Short version
+- `git push -u origin <branch-name>`
+
+- When running `git branch -vv`, the new remote branch should show in the list in addition to the local branch
+
+- To push more changes to the remote branch after that, `git push`
+
+### How to update you local branch with latest changes from master (using merge)
+
+* Go to master branch with: `git switch master`
+
+* Update your local master with: `git pull origin master`
+  - Better still, do a `git fetch origin` followed by   `git merge origin/master` so that you fully understand what `git pull` actually does.
+
+* Resolve conflicts (if applicable)
+* Go back to features with: `git switch features`
+* Merge master branch over features with: `git merge master`
+* Push changes with: `git push -u origin features` (the -u sets the upstream remote branch and tracking in you local repository)
+* To push more changes, you can then just do `git push`
+
+### How to update you local branch with latest changes from master (using rebase)
+
+`git fetch`
+`git rebase origin/master`
+
+- Shorter version
+- `git pull --rebase`
+
+
+
+### About pull
+
+- `git pull <remote> <branch>`
+
+* is equivalent to 
+- `git fetch <remote>`
+- `git merge <remote>/<branch>`
+
+
 
 
 
