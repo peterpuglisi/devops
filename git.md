@@ -1,3 +1,4 @@
+
 ## Output list of config settings
 
 `git config --list`
