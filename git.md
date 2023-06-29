@@ -169,11 +169,11 @@ new line added to staging
 
 ### Delete remote branches 
 
-`git push origin –delete branch-name`
+`git push origin –-delete branch-name`
 
 ### Delete remote tracking branch after branch remote branch deleted 
 
-`git fetch origin –prune`
+`git fetch origin –-prune`
 
 
 
