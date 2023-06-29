@@ -165,6 +165,16 @@ new line added to staging
 * is equivalent to 
 - `git fetch <remote>`
 - `git merge <remote>/<branch>`
+- 
+
+### Delete remote branches 
+
+`git push origin –delete branch-name`
+
+### Delete remote tracking branch after branch remote branch deleted 
+
+`git fetch origin –prune`
+
 
 
 
